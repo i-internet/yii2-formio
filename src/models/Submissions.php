@@ -39,7 +39,7 @@ class Submissions extends BaseModel
      */
     public static function tableName()
     {
-        return 'formio_submissions';
+        return '{{%formio_submissions}}';
     }
 
     public function init()
