@@ -47,7 +47,7 @@ class Forms extends BaseModel
      */
     public static function tableName()
     {
-        return 'formio_forms';
+        return '{{%formio_forms}}';
     }
 
     /**
